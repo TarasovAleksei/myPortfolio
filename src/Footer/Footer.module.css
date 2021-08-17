@@ -1,0 +1,32 @@
+.footerBlock {
+    min-height: 30vh;
+    background-color: #88d9f1;
+}
+.footerContainer {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    background-color: #87ee9c;
+}
+.containerForSocial {
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c0cdf3;
+    border: 1px solid;
+}
+.item {
+    width: 30px;
+    height: 30px;
+    background-color: #9bec43;
+}
+.copyRight {
+    margin-top: 20px;
+    color: white;
+    background-color: #0b43bf;
+    border-radius: 5px;
+}
+

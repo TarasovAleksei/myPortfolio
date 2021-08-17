@@ -1,0 +1,42 @@
+.contactsBlock {
+    min-height: 100vh;
+    background-color: #e2a1fc;
+}
+.contactsContainer {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.title {
+    background-color: #87ee9c;
+}
+.form {
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid;
+}
+.formItem {
+    width: 100%;
+    outline: none;
+}
+.formItem:nth-child(n+2) {
+    margin-top: 10px;
+}
+.button {
+    margin-top: 20px;
+    color: white;
+    background-color: #0b43bf;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover {
+    font-weight: 700;
+    color: #0c14c1;
+    background-color: #fdfdfd;
+    cursor: pointer;
+}
